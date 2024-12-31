@@ -1,0 +1,6 @@
+<!-- Start the project commands -->
+flask --app filename run
+<!-- run this on terminal it will restart the server after every change in code -->
+$env:FLASK_ENV="development"
+% run this on terminal it will set the debug mode to true 
+$env:FLASK_DEBUG=1
